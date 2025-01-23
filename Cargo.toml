@@ -6,3 +6,5 @@ edition = "2021"
 [dependencies]
 winapi = { version = "0.3", features = ["winuser"] }
 windows-capture = "1.4.2"
+clap = { version = "4.5.23", features = ["derive"] }
+cpal = "0.15.3"
